@@ -15,3 +15,4 @@ RUN apt-get update \
 RUN npm install -g puppeteer --unsafe-perm=true --allow-root
 RUN npm install -g ma-magepack --unsafe-perm=true --allow-root
 ENTRYPOINT ["ma-magepack"]
+
